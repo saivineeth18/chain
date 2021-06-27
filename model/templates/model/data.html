@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>data fro mysql</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th>PROFIT_PERC</th>
+                <th>datatime_ist</th>
+            </tr>
+            {% for getdata in bitcoin %}
+            <tr>
+                <th>{{getdata.PROFIT_PERC}}</th>
+                <th>{{getdata.data}}</th>
+                <th>{{getdata.time}}</th>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
