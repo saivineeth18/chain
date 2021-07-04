@@ -96,10 +96,9 @@
           
           <div class="col center-block" style="margin-top: 5%;">
             <div class="row" style="padding: 1%;">
-              <div class="col"><h2>You Send</h2></div>
+              <div class="col"><h2>You Send ($)</h2></div>
               <div class="col">
                 <div class="input-group mb-3">
-                  <span class="input-group-text" style="font-size: 14px;height: 44px;">$</span>
                   <form method="POST" id="formOne">
                     {% csrf_token %}
                     <input id="send" type="text" class="form-control"  name="send" placeholder="1000" value="{{show}}" style="border-radius: 4px;box-shadow: none;font-size: 14px;height: 44px;">
