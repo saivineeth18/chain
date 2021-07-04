@@ -1,1 +1,1 @@
-web: gunicorn cryptopay.wsgi
+web: gunicorn chain.wsgi
