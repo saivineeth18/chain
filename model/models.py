@@ -11,7 +11,7 @@ class bitcoin(models.Model):
     BIN_BTC_INR = models.FloatField()
     PROFIT_BTCINR = models.FloatField()
     PROFIT_PERC = models.FloatField()
-    data = models.DateField()
+    datetime_ist = models.DateField()
     time = models.TimeField()
     class Meta:
         db_table="price"
