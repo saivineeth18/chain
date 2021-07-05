@@ -11,7 +11,7 @@ from .forms import form_registers
 from django.http import HttpResponse
 from datetime import datetime as dt
 from django.core import serializers
-
+import requests
 
 def showemp(request):
     resultdisplay = bitcoin.objects.all()
