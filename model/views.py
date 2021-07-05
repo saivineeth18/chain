@@ -59,6 +59,7 @@ def index(request):
         'show':show,
         'fee':str(fee)[:4],
         'Recipient_inr':formatted_float,
+        'Recipient': "{:.2f}".format(Recipient),
     }
     
     
