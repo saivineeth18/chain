@@ -24,6 +24,11 @@ class register(models.Model):
     class Meta:
         db_table="register"
 
+class location_model(models.Model):
+    ip = models.TextField(max_length=100)
+    city = models.TextField(max_length=100)
+    class Meta:
+        db_table="location"
 
 
 
