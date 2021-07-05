@@ -50,13 +50,6 @@ def index(request):
     Recipient_inr = Recipient*(last.USD_INR)
     formatted_float = "{:.2f}".format(Recipient_inr)
     
-    res = requests.get('https://ipinfo.io/')
-    data = res.json()
-    city = data['city']
-    ip = data['ip']
-    lm = location_model(ip=ip,city=city)
-    lm.save()
-    
 
     context = {
         "price":hi,
