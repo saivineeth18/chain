@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'chain.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'freedbtech_techintrend',
-        'USER': 'freedbtech_techintrend',
-        'PASSWORD': 'SVineeth181#',
-        'HOST': 'freedb.tech',
+        'NAME': 'COcAb9Kdvr',
+        'USER': 'COcAb9Kdvr',
+        'PASSWORD': '0SOZ4SiIPE',
+        'HOST': 'remotemysql.com',
         'PORT': '3306',
         'OPTIONS':{
             'init_command':"SET sql_mode='STRICT_TRANS_TABLES'" 
