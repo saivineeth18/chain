@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'chain.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'u275119236_saivineeth',
-        'USER': 'u275119236_saivineeth',
-        'PASSWORD': 'wjr0P[Z7~W',
-        'HOST': 'auth-db149.hostinger.com',
+        'NAME': 'bnj0pp8mdfpetlpdmo1t',
+        'USER': 'un65y2gnvcsjn2we',
+        'PASSWORD': 'cBarUE9Ygv9r0nbslZ5H',
+        'HOST': 'bnj0pp8mdfpetlpdmo1t-mysql.services.clever-cloud.com',
         'OPTIONS':{
             'init_command':"SET sql_mode='STRICT_TRANS_TABLES'" 
         }
