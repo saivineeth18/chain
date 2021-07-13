@@ -79,11 +79,10 @@ WSGI_APPLICATION = 'chain.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'COcAb9Kdvr',
-        'USER': 'COcAb9Kdvr',
-        'PASSWORD': '0SOZ4SiIPE',
-        'HOST': 'remotemysql.com',
-        'PORT': '3306',
+        'NAME': 'u275119236_saivineeth',
+        'USER': 'u275119236_saivineeth',
+        'PASSWORD': 'wjr0P[Z7~W',
+        'HOST': 'auth-db149.hostinger.com',
         'OPTIONS':{
             'init_command':"SET sql_mode='STRICT_TRANS_TABLES'" 
         }
